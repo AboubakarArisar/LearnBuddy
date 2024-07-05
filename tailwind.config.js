@@ -9,7 +9,22 @@ export default {
       lg: "1024px",
       xsl: "1280px",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-15%)" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 1s ease-in-out",
+        bounce: "bounce 2s infinite",
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
 };
