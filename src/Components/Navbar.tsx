@@ -11,7 +11,12 @@ const Navbar = () => {
       <nav className='w-full h-full flex justify-center items-center'>
         <div className='flex justify-between items-center w-full'>
           <div>
-            <img src='/logo.svg' className='w-24' alt='Logo' />
+            <img
+              src='/logo.svg'
+              className='w-24 cursor-pointer'
+              onClick={() => navigate("/")}
+              alt='Logo'
+            />
           </div>
           <div>
             <div className='flex gap-2'>

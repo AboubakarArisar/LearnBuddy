@@ -11,7 +11,7 @@ const Home = () => {
               Your personalized AI learning companion, tailored just for you.
             </p>
           </div>
-          <div className='animate-bounce'>
+          <div className='animate-bounce duration-800'>
             <img src='/LearnBuddy.svg' alt='LearnBuddy Logo' />
           </div>
         </div>
